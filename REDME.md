@@ -1,7 +1,10 @@
-# Optimize Image Type of Image - Svg , Png ,Jpg ,Sprite.
+# Css Overflow visible,hidden,scroll,Text-overflow,ellipsis
 
-## `Control Image Resulation` : Go To [Photopea](https://www.photopea.com/) .
+## Css proverty you will learn :
 
-    Drag a Image there - File - Export as - png/jpg/sprite to size whatever you want
+    overflow: scroll;(content scoll er maddome dekte parbo)
+    overflow-x: hidden;(content bahire jabe na width/height er )
 
-# Image compress kore choto na krle website load hote onk smy nibe, tai proyojon onusare imag choto kore nite hbe.
+    white-space: nowrap;(line break hbe na)
+    overflow: hidden;
+    text-overflow: ellipsis;(baki text er por ... dot dekhabe)
