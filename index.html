@@ -6,83 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      .mega-box {
-        width: 500px;
-        height: 200px;
-        border: 2px solid red;
-        /* overflow: hidden; */
-        overflow: scroll;
-        overflow-x: hidden;
-      }
-      .mini-text {
+      .container,
+      .inner {
+        height: 150px;
         width: 150px;
-        border: 2px solid royalblue;
+        background-color: aqua;
+        border: 2px solid red;
       }
-      .mini-text p {
-        /* Overfloh:hidden ta ekhane je text ke krbo take dite hbe. & title e baki likha likhe dite hbe */
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+      .inner {
+        background-color: blueviolet;
+        transform: translateX(100px) scale(0.7) rotate(44deg);
+        /* translate ta sobar age dite hbe nhy problem krbe*/
       }
     </style>
   </head>
   <body>
-    <div class="mini-text">
-      <p
-        title="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
-      quia quaerat assumenda expedita eveniet a, libero laudantium sit numquam
-      quod!"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
-        quia quaerat assumenda expedita eveniet a, libero laudantium sit numquam
-        quod!
-      </p>
+    <div class="box container">
+      <div class="inner">Box-1</div>
     </div>
-    <div class="mega-box">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eos
-        facere velit necessitatibus aut earum placeat laboriosam minus, dolore
-        veniam nisi animi laborum debitis quisquam aliquam quis ducimus,
-        obcaecati molestias odit molestiae? Itaque quasi nobis eligendi incidunt
-        fuga reiciendis, tempora animi perspiciatis adipisci obcaecati magni
-        tenetur, aut cumque optio aspernatur quibusdam doloribus reprehenderit
-        corrupti. Quam illum, eos aliquam ullam facere fugiat soluta voluptas
-        adipisci, eum alias quod vel! Harum ipsam ratione molestias ipsa
-        expedita architecto reprehenderit ab porro suscipit repellat nobis optio
-        nulla quis sed eum aspernatur delectus exercitationem illum velit omnis
-        laborum, at atque. Architecto perspiciatis commodi quaerat assumenda,
-        sunt amet eos asperiores ut! Dolor eaque odit, fugit optio quia
-        blanditiis repellat culpa numquam libero ipsum pariatur exercitationem!
-        Cum, ut. Facilis aut aperiam aliquam repellat reprehenderit vel a. Ipsa
-        illo facilis, nemo expedita error deserunt quam numquam quae aliquam sit
-        provident porro ducimus earum nobis debitis vel, eum cumque. Deleniti
-        totam enim sint temporibus deserunt ullam debitis. Voluptatum eveniet,
-        animi, magnam praesentium libero dicta placeat accusantium laborum, ab
-        perspiciatis obcaecati facilis! Eos vel labore delectus quidem. Iste
-        impedit libero pariatur placeat consequuntur sequi aperiam nostrum
-        tempore molestias totam vero non natus aliquam repellendus
-        necessitatibus unde omnis voluptas molestiae at, cum ea nihil quidem
-        sint illo! Impedit, laborum. Ducimus nesciunt beatae consequuntur. Eos
-        nisi fugiat officiis tempora incidunt, modi nesciunt, praesentium
-        tenetur dignissimos quae soluta? Illum fugit alias soluta excepturi
-        corporis? Quisquam iusto veniam minima velit ab culpa totam consequatur
-        vero qui, placeat ad consectetur id at sint voluptas harum reprehenderit
-      </p>
+    <div class="box container">
+      <div class="inner">Box-2</div>
     </div>
-    <div class="extra-box">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-        dolorum dolore tenetur soluta praesentium quae maiores, deserunt
-        molestiae aut expedita minima qui, voluptatem accusantium officiis
-        culpa, alias eligendi unde reprehenderit fuga quaerat saepe eaque!
-        Libero nisi magnam eos dolorum enim illo voluptatum nemo consectetur
-        deleniti praesentium tenetur iusto optio saepe recusandae ut a pariatur,
-        sapiente expedita assumenda repellendus cum, totam nulla dolore? Sed
-        esse magni nisi recusandae ea tempore sapiente soluta. Veritatis
-        incidunt totam quas amet iusto recusandae. Asperiores, rerum possimus
-        neque atque debitis quo a nemo vitae distinctio, perferendis tenetur
-        unde nihil! Consectetur odio consequatur dolorem quis porro voluptas!
-      </p>
+    <div class="box container">
+      <div class="inner">Box-3</div>
     </div>
   </body>
 </html>

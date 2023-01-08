@@ -1,10 +1,9 @@
-# Css Overflow visible,hidden,scroll,Text-overflow,ellipsis
+# Css Overflow Transform - Rotate , Scale , Translate
 
-## Css proverty you will learn :
+    transform:scale(1) - [1 mane 100% , 0.5 mane tar ordek, 2 mane dui gun]
+    transform: rotate(45 deg) - [deg onusar gurb ]
+    transform: translate(100px) - [X & Y theke 100px sore jabe ]
+    transform: translateX(100px) / translateY(100px)
+    sob value to ek jaygay dite hbe tkn translate er value sobar age dite hbe
 
-    overflow: scroll;(content scoll er maddome dekte parbo)
-    overflow-x: hidden;(content bahire jabe na width/height er )
-
-    white-space: nowrap;(line break hbe na)
-    overflow: hidden;
-    text-overflow: ellipsis;(baki text er por ... dot dekhabe)
+**Note Transform er value eki line e likhte hbe**
