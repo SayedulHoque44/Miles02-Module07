@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      @keyframes slider {
+        from {
+          background-color: red;
+          top: 0;
+          left: 0;
+        }
+        to {
+          background-color: yellow;
+          top: 0;
+          left: 300px;
+        }
+      }
+      .stage {
+        background-color: aqua;
+        width: 400px;
+        height: 300px;
+      }
+      .ball {
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        animation-name: slider;
+        animation-duration: 1s;
+        position: relative;
+        background-color: rgb(141, 4, 4);
+        animation-iteration-count: 3;
+        /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+        animation-direction: alternate;
+        animation-fill-mode: forwards;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="stage">
+      <div class="ball"></div>
+    </div>
+  </body>
+</html>
