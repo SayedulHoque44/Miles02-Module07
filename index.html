@@ -6,29 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-      .container,
-      .inner {
-        height: 150px;
-        width: 150px;
-        background-color: aqua;
-        border: 2px solid red;
-      }
-      .inner {
+      .box {
+        height: 200px;
+        width: 200px;
         background-color: blueviolet;
-        transform: translateX(100px) scale(0.7) rotate(44deg);
-        /* translate ta sobar age dite hbe nhy problem krbe*/
+        /* transition: width 3s ease 0.5s; (linear,ease,ease-in/out,ease-in-out)*/
+        transition: width 3s ease, height 2s ease, transform 3s;
+      }
+      .box:hover {
+        width: 100px;
+        height: 100px;
+        transform: rotate(70deg);
       }
     </style>
   </head>
   <body>
-    <div class="box container">
-      <div class="inner">Box-1</div>
-    </div>
-    <div class="box container">
-      <div class="inner">Box-2</div>
-    </div>
-    <div class="box container">
-      <div class="inner">Box-3</div>
+    <div class="box">
+      <h3>Transition</h3>
     </div>
   </body>
 </html>
